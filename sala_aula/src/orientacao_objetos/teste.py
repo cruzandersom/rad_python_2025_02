@@ -55,3 +55,6 @@ conta_01['saldo'] += 1000.00
 conta_01['saldo'] -= 500.00
 
 print(conta_01)
+
+int()
+str()
