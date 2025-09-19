@@ -3,8 +3,16 @@ from src.orientacao_objetos.conta_dataclass import ContaDataClass
 
 class TestaContaDataClass:
     def testa_conta(self):
-        conta = ContaDataClass("Anderson Cruz", "Banco do Brasil", "0001", "12345-6", 1000.00)
-        conta_02 = ContaDataClass("Maria Silva", "Caixa Econômica", "0001", "98765-4", 500.00)
+        conta = ContaDataClass("Anderson Cruz",
+                               "Banco do Brasil",
+                               "0001", "12345-6",
+                               1000.00)
+
+        conta_02 = ContaDataClass("Maria Silva",
+                                  "Caixa Econômica",
+                                  "0001",
+                                  "98765-4",
+                                  500.00)
 
         print(conta)
         print(conta_02)

@@ -13,12 +13,7 @@ class Cliente:
     Endereco: str
 
 
-cpf : str = "4.789-00"
 
-
-
-# Instanciando o objeto Cliente
-# Colocando o objeto em memória
 
 cliente = Cliente()
 cliente.Nome = "Anderson Cruz"
@@ -27,3 +22,9 @@ cliente.Idade = 30
 cliente.Profissao = "Desenvolvedor"
 cliente.Endereco = "Rua A, 123, Cidade B"
 print(cliente.Nome)
+
+
+
+
+
+

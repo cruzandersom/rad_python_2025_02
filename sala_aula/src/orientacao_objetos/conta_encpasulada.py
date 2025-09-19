@@ -1,11 +1,13 @@
+from src.orientacao_objetos.cliente_conta import ClienteConta
+
 class ContaEncapsulada:
 
     def __init__(self,
-                 cliente,
-                 banco,
-                 agencia,
-                 conta,
-                 saldo=10.00):
+                 cliente: ClienteConta,
+                 banco: str,
+                 agencia: str,
+                 conta: str,
+                 saldo: float =10.00):
         self.__cliente = cliente
         self.__banco = banco
         self.__agencia = agencia
@@ -63,3 +65,21 @@ class ContaEncapsulada:
         return self.__saldo
 
 
+
+cliente = ClienteConta("Anderson Cruz",
+                       cpf="123.456.789-00",
+                       idade=18,
+                       profissao="Desenvolvedor")
+
+
+
+conta_01 = ContaEncapsulada(cliente=cliente,
+                            banco="Banco do Brasil",
+                            agencia="0001",
+                            conta="12345-6",
+                            saldo=1000.00)
+
+#print(conta_01)
+print(conta_01.cliente.idade)
+print(conta_01.saldo)
+print(conta_01.cliente.nome)
