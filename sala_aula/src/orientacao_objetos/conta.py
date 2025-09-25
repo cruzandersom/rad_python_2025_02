@@ -40,24 +40,3 @@ class Conta:
                 f"Transferência de {valor} para {conta_destino.cliente} realizada com sucesso. Novo saldo: {self.saldo}")
 
 
-conta_01 = Conta("Anderson Cruz",
-                 "Banco do Brasil",
-                 "0001",
-                 "12345-6",
-                 1000.00)
-
-conta_02 = Conta("Maria Silva",
-                 "Caixa Econômica",
-                 "0001",
-                 "98765-4",
-                 500.00)
-
-print(conta_01)
-print(conta_02)
-
-conta_02.saldo += 1000.00
-
-conta_01.transferir(200.00, conta_02)
-print(conta_01)
-print(conta_02)
-
