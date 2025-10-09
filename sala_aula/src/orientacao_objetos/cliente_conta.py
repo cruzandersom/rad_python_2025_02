@@ -12,9 +12,7 @@ class ClienteConta:
                  profissao: str):
         self.__nome = nome
         self.__cpf = cpf
-
         self.__idade = self.__valida_idade(idade)
-
         self.__profissao = profissao
 
 
