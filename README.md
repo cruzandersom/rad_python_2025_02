@@ -5,10 +5,15 @@ Este repositório serve como o arquivo central para todos os códigos-fonte, exe
 O conteúdo é direcionado aos alunos dos cursos de Análise e Desenvolvimento de Sistemas e Ciência da Computação do Centro Universitário Estácio de Juiz de Fora.
 
 Centro Universitário Estácio de Juiz de Fora
+
 Disciplina: RAD com Python
+
 Cursos: Análise e Desenvolvimento de Sistemas, Ciência da Computação
+
 Ano Letivo: 2025
+
 Professor(a): Anderson Barboza da Cruz
+
 
 🚀 Como Começar
 Para ter acesso aos códigos e executá-los em sua máquina local, você precisará ter o Git e o Python 3 instalados.
